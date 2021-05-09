@@ -53,3 +53,30 @@ footer p {
   color: #bbb;
   margin: 40px auto;
 }
+
+body {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+svg path {
+  position: absolute;
+  stroke-dasharray: 10067;
+  stroke-dashoffset: 10067;
+  stroke-width: 3px;
+  animation: sign 9s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+/* background-color: #f04043; */
+
+@keyframes sign {
+  from {
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}

@@ -17,8 +17,8 @@ module.exports = {
     },
   ],
   siteMetadata: {
-    title: "Web Warrior",
-    description: "web dev portfolio",
-    copyright: "This website is copyright 2021 coltydkso0o0kin",
+    title: "Cadey Pokemon",
+    description: "I love Pokemon",
+    copyright: "This website is copyright 2021 cadey Pokemon",
   },
 }
